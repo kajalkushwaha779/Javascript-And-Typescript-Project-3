@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    width: 1320px;
+    margin: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(rgba(5, 18, 35, 0.88),rgba(6, 17, 31, 0.92)),url("../image/bg-img.jpg");
+    color: #e8f1ff;
+    padding-bottom: 50px;
+}
+header {
+    padding: 35px 0;
+    margin-bottom: 40px;
+    background: linear-gradient(135deg,#071b34,#0d3b66,#075985);
+    border-bottom: 2px solid #1597e5;
+    box-shadow:0 5px 25px rgba(0, 0, 0, 0.4);
+}
+header h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #7dd3fc;
+    text-shadow:0 0 10px rgba(56, 189, 248, 0.6),0 0 25px rgba(56, 189, 248, 0.3);
+}
+main {
+    width: 100%;
+    padding-bottom: 30px;
+}
+section {
+    margin: 0 auto 25px;
+    padding: 25px 30px;
+    background: linear-gradient(145deg,#0d2138,#102d4a);
+    border: 1px solid #164e70;
+    border-left: 5px solid #0ea5e9;
+    border-radius: 15px;
+    box-shadow:0 8px 25px rgba(0, 0, 0, 0.35),inset 0 0 15px rgba(14, 165, 233, 0.04);
+    transition: 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+    box-shadow:0 12px 30px rgba(0, 0, 0, 0.5),0 0 20px rgba(14, 165, 233, 0.15);
+}
+section h3 {
+    color: #7dd3fc;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+section p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+section p span {
+    color: #fbbf24;
+    font-weight: 700;
+}
+section p[id] {
+    width: 90%;
+    padding: 25px 15px;
+    background: #081827;
+    border-radius: 8px;
+    border: 1px solid #164e70;
+    color: #67e8f9;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+section p[id]:hover {
+    border-color: #22d3ee;
+    color: #a5f3fc;
+    box-shadow:0 0 12px rgba(34, 211, 238, 0.15);
+}
+#arr,#sumArr,#arr1,#ascii-arr,#negetive-arr,#map-arr,#arr-sort,#less-than-8-arr,#str-1,#str-2,#str-3,#reverse-arr,#found-num,#found-arr,#name,#replace-content,#string-a,#arr-s{
+    color: #86efac;
+    font-weight: 700;
+    border-left: 4px solid #22c55e;
+}
+#color-output-1,#color-output-2,#color-output-3,#color-output-4,#color-output-5,#color-output-6,#for-output-1,#for-each-output-1,#maxiumu,#minimum,#ascii-output,#negetive-output,#map-square,#ascending-sort,#descending-sort,#less-than-8-output,#str1-output,#str2-output,#str3-output1,#str3-output2,#reverse-output,#found-output,#name-count,#replace-output,#str-arr,#arr-str {
+    color: #dbeafe;
+    background: #0a1a2c;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+
